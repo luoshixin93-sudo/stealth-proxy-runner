@@ -1,0 +1,45 @@
+{
+  "name": "stealth-proxy-runner",
+  "version": "1.0.0",
+  "description": "Headless stealth browser with proxy rotation and anti-detection - powered by Camoufox",
+  "type": "module",
+  "main": "server.js",
+  "license": "MIT",
+  "author": "luoshixin93-sudo",
+  "homepage": "https://github.com/luoshixin93-sudo/stealth-proxy-runner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoshixin93-sudo/stealth-proxy-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luoshixin93-sudo/stealth-proxy-runner/issues"
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "headless",
+    "scraping",
+    "stealth",
+    "anti-detection",
+    "proxy",
+    "proxy-rotation",
+    "camoufox",
+    "playwright"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test.js"
+  },
+  "dependencies": {
+    "camoufox-js": ">=0.10.0",
+    "express": "^4.18.2",
+    "playwright-core": "^1.58.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
