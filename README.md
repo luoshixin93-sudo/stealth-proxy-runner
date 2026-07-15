@@ -160,4 +160,4 @@ Standing on the shoulders of [Camoufox](https://github.com/daijro/camoufox) — 
 
 ---
 
-Made with ❤️ for cloud phone automation → [qtphone.com](https://www.qtphone.com/)
+Made with ❤️ for cloud phone automation → [android-cloud-device.com](https://www.android-cloud-device.com/)
